@@ -3,7 +3,7 @@
 <instance xmlns="http://www.exelearning.org/content/v0.3" reference="2" version="0.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.exelearning.org/content/v0.3 content.xsd" class="exe.engine.package.Package">
  <dictionary>
   <string role="key" value="_title"></string>
-  <unicode value="Prácticas con Micro:bit"></unicode>
+  <unicode value="Prácticas con Micro:bit (Parte 1)"></unicode>
   <string role="key" value="idevices"></string>
   <list></list>
   <string role="key" value="_addPagination"></string>
@@ -19,7 +19,7 @@
   <string role="key" value="_contextPlace"></string>
   <unicode value="classroom"></unicode>
   <string role="key" value="_description"></string>
-  <unicode value="Prácticas con Mivrobit"></unicode>
+  <unicode value="Prácticas con Microbit (Parte 1). Prácticas con Micro:bit sin componentes externos."></unicode>
   <string role="key" value="_docType"></string>
   <unicode value="HTML5"></unicode>
   <string role="key" value="_exportElp"></string>
@@ -69,7 +69,7 @@
   <string role="key" value="_intendedEndUserRoleType"></string>
   <unicode value="learner"></unicode>
   <string role="key" value="_isChanged"></string>
-  <bool value="1"></bool>
+  <bool value="0"></bool>
   <string role="key" value="_isTemplate"></string>
   <bool value="0"></bool>
   <string role="key" value="_lang"></string>
@@ -85,16 +85,16 @@
   <string role="key" value="_name"></string>
   <unicode value="Microbit"></unicode>
   <string role="key" value="_nextIdeviceId"></string>
-  <int value="8"></int>
+  <int value="10"></int>
   <string role="key" value="_nextNodeId"></string>
-  <int value="2"></int>
+  <int value="3"></int>
   <string role="key" value="_nodeIdDict"></string>
   <dictionary>
    <unicode role="key" value="0"></unicode>
    <instance class="exe.engine.node.Node" reference="4">
     <dictionary>
      <string role="key" value="_title"></string>
-     <unicode value="Prácticas con Micro:bit"></unicode>
+     <unicode value="Prácticas con Micro:bit (Parte 1)"></unicode>
      <string role="key" value="idevices"></string>
      <list>
       <instance class="exe.engine.jsidevice.JsIdevice" reference="1">
@@ -168,8 +168,11 @@
            <string value=""></string>
            <string role="key" value="anchor_names"></string>
            <list></list>
+           <string role="key" value="anchors_linked_from_fields"></string>
+           <dictionary></dictionary>
            <string role="key" value="content_w_resourcePaths"></string>
            <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;Este sitio plantea una serie de prácticas basadas en la web oficial &lt;a href=&quot;https://makecode.microbit.org/&quot;&gt;Makecode &lt;/a&gt;y en otras buscadas por el autor.&lt;/p&gt;
+&lt;p&gt;En esta &lt;strong&gt;primera parte&lt;/strong&gt; no se usan componentes externos, solo la placa Micro:bit.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;resources/Microbit.png&quot; alt=&quot;Tarjeta Micro:bit&quot; width=&quot;604&quot; height=&quot;296&quot; style=&quot;float: left;&quot; /&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
            <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
            <int value="4"></int>
@@ -190,7 +193,7 @@
                 <instance class="exe.engine.field.TextField">
                  <dictionary>
                   <string role="key" value="_id"></string>
-                  <int value="207"></int>
+                  <int value="218"></int>
                   <string role="key" value="_idevice"></string>
                   <none></none>
                   <string role="key" value="_instruc"></string>
@@ -204,7 +207,7 @@
                  </dictionary>
                 </instance>
                 <string role="key" value="_id"></string>
-                <unicode value="5_115_2.0"></unicode>
+                <unicode value="5_115_2.3"></unicode>
                 <string role="key" value="_imageResource"></string>
                 <instance class="exe.engine.resource.Resource" reference="5">
                  <dictionary>
@@ -215,7 +218,7 @@
                   <string role="key" value="_storageName"></string>
                   <string value="Microbit.png"></string>
                   <string role="key" value="_userName"></string>
-                  <string value="c:\\users\\juanca\\appdata\\local\\temp\\tmpmnevld.eXe\\previews\\allyourbase\\Microbit.png"></string>
+                  <string value="c:\\users\\juanca\\appdata\\local\\temp\\tmpm2ujiu\\Microbit.png"></string>
                   <string role="key" value="checksum"></string>
                   <string value="0be04bb6b46faf20ea88978ee4102bfa"></string>
                   <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -244,7 +247,7 @@
            <string role="key" value="intlinks_to_anchors"></string>
            <dictionary></dictionary>
            <string role="key" value="nextImageId"></string>
-           <int value="1"></int>
+           <int value="4"></int>
            <string role="key" value="parentNode"></string>
            <reference key="4"></reference>
           </dictionary>
@@ -288,7 +291,7 @@
      <string role="key" value="exportType"></string>
      <string value="website"></string>
      <string role="key" value="last_full_node_path"></string>
-     <string value="exe-node:Pr%C3%A1cticas%20con%20Micro%3Abit"></string>
+     <string value="exe-node:Pr%C3%A1cticas%20con%20Micro%3Abit%20%28Parte%201%29"></string>
      <string role="key" value="parent"></string>
      <none></none>
      <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -372,6 +375,8 @@
               <string value=""></string>
               <string role="key" value="anchor_names"></string>
               <list></list>
+              <string role="key" value="anchors_linked_from_fields"></string>
+              <dictionary></dictionary>
               <string role="key" value="content_w_resourcePaths"></string>
               <unicode content="true" value=""></unicode>
               <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
@@ -396,7 +401,7 @@
               <string role="key" value="nextImageId"></string>
               <int value="0"></int>
               <string role="key" value="parentNode"></string>
-              <none></none>
+              <reference key="8"></reference>
              </dictionary>
             </instance>
            </list>
@@ -495,9 +500,11 @@
               <string value=""></string>
               <string role="key" value="anchor_names"></string>
               <list></list>
+              <string role="key" value="anchors_linked_from_fields"></string>
+              <dictionary></dictionary>
               <string role="key" value="content_w_resourcePaths"></string>
               <unicode content="true" value="&lt;div class=&quot;pbl-task-description&quot;&gt;&lt;p&gt;Se trata de realizar el primer programa con la tarjeta Micro:bit. Este programa se llama &quot;Hola mundo&quot; y muestra por pantalla dicho mensaje.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;iDevice_buttons feedback-button js-required&quot;&gt;&lt;input type=&quot;button&quot; class=&quot;feedbackbutton&quot; value=&quot;Mostrar retroalimentación&quot; /&gt;&lt;/div&gt;&lt;div class=&quot;feedback js-feedback js-hidden&quot;&gt;&lt;p&gt;Código:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;resources/hola_mundo.JPG&quot; alt=&quot;Hola mundo&quot; width=&quot;443&quot; height=&quot;252&quot; /&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
+&lt;p&gt;&lt;img src=&quot;resources/hola_mundo.JPG&quot; width=&quot;307&quot; height=&quot;155&quot; alt=&quot;Código del programa &amp;quot;Hola mundo&amp;quot;&quot; /&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
               <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
               <int value="4"></int>
               <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -517,7 +524,7 @@
                    <instance class="exe.engine.field.TextField">
                     <dictionary>
                      <string role="key" value="_id"></string>
-                     <int value="208"></int>
+                     <int value="217"></int>
                      <string role="key" value="_idevice"></string>
                      <none></none>
                      <string role="key" value="_instruc"></string>
@@ -531,7 +538,7 @@
                     </dictionary>
                    </instance>
                    <string role="key" value="_id"></string>
-                   <unicode value="7_117_2.0"></unicode>
+                   <unicode value="7_117_2.4"></unicode>
                    <string role="key" value="_imageResource"></string>
                    <instance class="exe.engine.resource.Resource" reference="11">
                     <dictionary>
@@ -542,9 +549,9 @@
                      <string role="key" value="_storageName"></string>
                      <string value="hola_mundo.JPG"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="c:\\users\\juanca\\appdata\\local\\temp\\tmpmnevld.eXe\\previews\\allyourbase\\hola_mundo.JPG"></string>
+                     <string value="c:\\users\\juanca\\appdata\\local\\temp\\tmpm2ujiu\\hola_mundo.JPG"></string>
                      <string role="key" value="checksum"></string>
-                     <string value="9a9753264da60ae9bf4988490d240d56"></string>
+                     <string value="731942558c4a2c16905396e8a269ca22"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
                      <int value="2"></int>
                      <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
@@ -571,7 +578,7 @@
               <string role="key" value="intlinks_to_anchors"></string>
               <dictionary></dictionary>
               <string role="key" value="nextImageId"></string>
-              <int value="1"></int>
+              <int value="5"></int>
               <string role="key" value="parentNode"></string>
               <reference key="8"></reference>
              </dictionary>
@@ -615,7 +622,215 @@
         <string role="key" value="exportType"></string>
         <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:Pr%C3%A1cticas%20con%20Micro%3Abit:Pr%C3%A1ctica%2001%3A%20Hola%20mundo"></string>
+        <string value="exe-node:Pr%C3%A1cticas%20con%20Micro%3Abit%20%28Parte%201%29:Pr%C3%A1ctica%2001%3A%20Hola%20mundo"></string>
+        <string role="key" value="parent"></string>
+        <reference key="4"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="14">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Práctica 02: Corazón latiendo"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.jsidevice.JsIdevice" reference="12">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Task"></unicode>
+           <string role="key" value="_attributes"></string>
+           <list>
+            <tuple>
+             <string value="title"></string>
+             <list>
+              <string value="Title"></string>
+              <int value="0"></int>
+              <int value="0"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="category"></string>
+             <list>
+              <string value="Category"></string>
+              <int value="0"></int>
+              <int value="1"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="css-class"></string>
+             <list>
+              <string value="CSS class"></string>
+              <int value="0"></int>
+              <int value="2"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="icon"></string>
+             <list>
+              <string value="Icon"></string>
+              <int value="0"></int>
+              <int value="3"></int>
+             </list>
+            </tuple>
+           </list>
+           <string role="key" value="_author"></string>
+           <string value=""></string>
+           <string role="key" value="_iDeviceDir"></string>
+           <string value="pbl-tools"></string>
+           <string role="key" value="_purpose"></string>
+           <string value=""></string>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="_valid"></string>
+           <bool value="1"></bool>
+           <string role="key" value="class_"></string>
+           <unicode value="pbl"></unicode>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="1"></int>
+           <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
+           <int value="1"></int>
+           <string role="key" value="fields"></string>
+           <list>
+            <instance class="exe.engine.field.TextAreaField" reference="13">
+             <dictionary>
+              <string role="key" value="_id"></string>
+              <unicode value="112_2"></unicode>
+              <string role="key" value="_idevice"></string>
+              <reference key="12"></reference>
+              <string role="key" value="_instruc"></string>
+              <string value=""></string>
+              <string role="key" value="_name"></string>
+              <string value=""></string>
+              <string role="key" value="anchor_names"></string>
+              <list></list>
+              <string role="key" value="anchors_linked_from_fields"></string>
+              <dictionary></dictionary>
+              <string role="key" value="content_w_resourcePaths"></string>
+              <unicode content="true" value="&lt;div class=&quot;pbl-task-description&quot;&gt;&lt;p&gt;Realizar un programa en Makecode que simule un corazón latiendo.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;iDevice_buttons feedback-button js-required&quot;&gt;&lt;input type=&quot;button&quot; class=&quot;feedbackbutton&quot; value=&quot;Mostrar retroalimentación&quot; /&gt;&lt;/div&gt;&lt;div class=&quot;feedback js-feedback js-hidden&quot;&gt;&lt;p&gt;Código:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;resources/coraz_C3_B3n_latiendo.JPG&quot; width=&quot;206&quot; height=&quot;508&quot; alt=&quot;Código de la práctica 2: &amp;quot;Corazón latiendo&amp;quot;&quot; /&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
+              <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+              <int value="4"></int>
+              <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+              <int value="2"></int>
+              <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+              <int value="3"></int>
+              <string role="key" value="htmlTag"></string>
+              <string value="div"></string>
+              <string role="key" value="images"></string>
+              <instance class="exe.engine.galleryidevice.GalleryImages">
+               <dictionary>
+                <string role="key" value=".listitems"></string>
+                <list>
+                 <instance class="exe.engine.galleryidevice.GalleryImage">
+                  <dictionary>
+                   <string role="key" value="_caption"></string>
+                   <instance class="exe.engine.field.TextField">
+                    <dictionary>
+                     <string role="key" value="_id"></string>
+                     <int value="216"></int>
+                     <string role="key" value="_idevice"></string>
+                     <none></none>
+                     <string role="key" value="_instruc"></string>
+                     <string value=""></string>
+                     <string role="key" value="_name"></string>
+                     <string value=""></string>
+                     <string role="key" value="content"></string>
+                     <string value=""></string>
+                     <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                     <int value="4"></int>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="_id"></string>
+                   <unicode value="8_112_2.2"></unicode>
+                   <string role="key" value="_imageResource"></string>
+                   <instance class="exe.engine.resource.Resource" reference="15">
+                    <dictionary>
+                     <string role="key" value="_idevice"></string>
+                     <reference key="12"></reference>
+                     <string role="key" value="_package"></string>
+                     <reference key="2"></reference>
+                     <string role="key" value="_storageName"></string>
+                     <string value="coraz_C3_B3n_latiendo.JPG"></string>
+                     <string role="key" value="_userName"></string>
+                     <string value="c:\\users\\juanca\\appdata\\local\\temp\\tmpm2ujiu\\coraz_C3_B3n_latiendo.JPG"></string>
+                     <string role="key" value="checksum"></string>
+                     <string value="d815acb4c1faae69866d527a697348f6"></string>
+                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                     <int value="2"></int>
+                     <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                     <int value="2"></int>
+                     <string role="key" value="warningMsg"></string>
+                     <string value=""></string>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="_parent"></string>
+                   <reference key="13"></reference>
+                   <string role="key" value="_thumbnailResource"></string>
+                   <none></none>
+                   <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="makeThumbnail"></string>
+                   <bool value="0"></bool>
+                  </dictionary>
+                 </instance>
+                </list>
+                <string role="key" value="idevice"></string>
+                <reference key="13"></reference>
+               </dictionary>
+              </instance>
+              <string role="key" value="intlinks_to_anchors"></string>
+              <dictionary></dictionary>
+              <string role="key" value="nextImageId"></string>
+              <int value="3"></int>
+              <string role="key" value="parentNode"></string>
+              <reference key="14"></reference>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="icon"></string>
+           <unicode value="activity"></unicode>
+           <string role="key" value="id"></string>
+           <unicode value="8"></unicode>
+           <string role="key" value="ideviceCategory"></string>
+           <unicode value="Text and Tasks"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="nextFieldId"></string>
+           <int value="3"></int>
+           <string role="key" value="originalicon"></string>
+           <unicode value="activity"></unicode>
+           <string role="key" value="parentNode"></string>
+           <reference key="14"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list>
+            <reference key="15"></reference>
+           </list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="2"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="2"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="exportType"></string>
+        <string value="website"></string>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:Pr%C3%A1cticas%20con%20Micro%3Abit%20%28Parte%201%29:Pr%C3%A1ctica%2002%3A%20Coraz%C3%B3n%20latiendo"></string>
         <string role="key" value="parent"></string>
         <reference key="4"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -629,6 +844,8 @@
    </instance>
    <unicode role="key" value="1"></unicode>
    <reference key="8"></reference>
+   <unicode role="key" value="2"></unicode>
+   <reference key="14"></reference>
   </dictionary>
   <string role="key" value="_objectives"></string>
   <unicode value=""></unicode>
@@ -652,7 +869,7 @@
     <string role="key" value="date"></string>
     <unicode value=""></unicode>
     <string role="key" value="description"></string>
-    <unicode value="Prácticas con Mivrobit"></unicode>
+    <unicode value="Prácticas con Microbit (Parte 1). Prácticas con Micro:bit sin componentes externos."></unicode>
     <string role="key" value="format"></string>
     <unicode value=""></unicode>
     <string role="key" value="identifier"></string>
@@ -670,7 +887,7 @@
     <string role="key" value="subject"></string>
     <unicode value=""></unicode>
     <string role="key" value="title"></string>
-    <unicode value="Prácticas con Micro:bit"></unicode>
+    <unicode value="Prácticas con Micro:bit (Parte 1)"></unicode>
     <string role="key" value="type"></string>
     <unicode value=""></unicode>
    </dictionary>
@@ -897,7 +1114,7 @@
             <string role="key" value="language"></string>
             <string value="es"></string>
             <string role="key" value="valueOf_"></string>
-            <string value="Pr\xc3\xa1cticas con Mivrobit"></string>
+            <string value="Pr\xc3\xa1cticas con Microbit (Parte 1). Pr\xc3\xa1cticas con Micro:bit sin componentes externos."></string>
            </dictionary>
           </instance>
          </list>
@@ -956,7 +1173,7 @@
            <string role="key" value="language"></string>
            <string value="es"></string>
            <string role="key" value="valueOf_"></string>
-           <string value="Pr\xc3\xa1cticas con Micro:bit"></string>
+           <string value="Pr\xc3\xa1cticas con Micro:bit (Parte 1)"></string>
           </dictionary>
          </instance>
         </list>
@@ -984,7 +1201,7 @@
              <string role="key" value="uniqueElementName"></string>
              <string value="dateTime"></string>
              <string role="key" value="valueOf_"></string>
-             <string value="2022-06-04T18:01:35.00+02:00"></string>
+             <string value="2022-06-04T17:59:49.00+02:00"></string>
             </dictionary>
            </instance>
            <string role="key" value="description"></string>
@@ -1458,7 +1675,7 @@
             <string role="key" value="language"></string>
             <string value="es"></string>
             <string role="key" value="valueOf_"></string>
-            <string value="Pr\xc3\xa1cticas con Mivrobit"></string>
+            <string value="Pr\xc3\xa1cticas con Microbit (Parte 1). Pr\xc3\xa1cticas con Micro:bit sin componentes externos."></string>
            </dictionary>
           </instance>
          </list>
@@ -1517,7 +1734,7 @@
            <string role="key" value="language"></string>
            <string value="es"></string>
            <string role="key" value="valueOf_"></string>
-           <string value="Pr\xc3\xa1cticas con Micro:bit"></string>
+           <string value="Pr\xc3\xa1cticas con Micro:bit (Parte 1)"></string>
           </dictionary>
          </instance>
         </list>
@@ -1545,7 +1762,7 @@
              <string role="key" value="uniqueElementName"></string>
              <string value="dateTime"></string>
              <string role="key" value="valueOf_"></string>
-             <string value="2022-06-04T18:01:35.00+02:00"></string>
+             <string value="2022-06-04T17:59:49.00+02:00"></string>
             </dictionary>
            </instance>
            <string role="key" value="description"></string>
@@ -1885,9 +2102,13 @@
    <list>
     <reference key="5"></reference>
    </list>
-   <string role="key" value="9a9753264da60ae9bf4988490d240d56"></string>
+   <string role="key" value="731942558c4a2c16905396e8a269ca22"></string>
    <list>
     <reference key="11"></reference>
+   </list>
+   <string role="key" value="d815acb4c1faae69866d527a697348f6"></string>
+   <list>
+    <reference key="15"></reference>
    </list>
   </dictionary>
   <string role="key" value="root"></string>
